@@ -1,0 +1,19 @@
+Partie Xpath:
+
+1)
+/library/book
+
+2)
+/library/book/title[parent/attribute::roman][parent::book]
+
+3)
+
+Partie Java SpringBoot:
+
+J'ai utilisé une base mongoDB pour l'exercice, la config est sur le fichier "application.properties".
+J'ai utilisé une API HTTP REST, avec une doc API.
+Pour la partie service, j'ai utilisé mongotemplate qui me permet d'avoir accès à des méthodes pour envoyer des requetes
+sur la base mongoDB.
+Toute la partie me concernant sur le Java à été faite et testé via Postman.
+
+En revanche je n'ai pas eu le temps de finir le 1er exercice sur le Xpath (j'ai commencé par la partie SpringBoot).
